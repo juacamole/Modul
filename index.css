@@ -1,0 +1,143 @@
+* {
+    font-family: "Mukta Helvetica", sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 20% 55% 25%;
+    grid-template-areas:
+            "header header header"
+            "content content side"
+            "footer footer footer";
+    margin: 20px auto auto;
+    position: fixed;
+}
+
+
+header {
+    background-color: #FF3100;
+    border: black 1px solid;
+    padding:  20px 10px 20px 10px;
+    grid-area: header;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+main {
+    background-color: #FFCF00;
+    border: black 1px solid;
+    padding:  20px 10px 20px 10px;
+    grid-area: content;
+}
+
+#product-image {
+    background-color: #D2AA00;
+    padding-top: 7%;
+    border: black 1px solid;
+    height: 12vw;
+    width: 12vw;
+    text-align: center;
+}
+
+aside {
+    background-color: #DDB300;
+    border: black 1px solid;
+    padding:  20px 10px 20px 10px;
+    grid-area: side;
+}
+
+footer {
+    background-color: #DD8300;
+    text-align:center;
+    border: black 1px solid;
+    padding:  20px 10px 20px 10px;
+    grid-area: footer;
+}
+.product-wrapper {
+    background-color: #FFCC00;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.product-parent {
+        margin-left: 20px;
+}
+
+.product-description-parent {
+    background-color: #D2AA00;
+    border: black 1px solid;
+    width: 101.8%;
+    height: 12vh;
+    padding: 10px;
+}
+
+.similar-products-parent {
+    margin-left: 10px;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    justify-content: space-evenly;
+}
+
+.similar-product {
+    background-color: #A38500;
+    margin: 2%;
+    padding-top: 5%;
+    border: black 1px solid;
+    height: 7vw;
+    width: 7vw;
+    text-align: center;
+}
+
+#logo {
+    background-color: #A31F00;
+    border: black 1px solid;
+    margin: 2%;
+    height: 7vh;
+    width: 10vw;
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+#search {
+    color: black;
+    font-weight: bold;
+    background-color: #FF9700;
+    border: black 1px solid;
+    margin: 3%;
+    height: 4vh;
+    width: 11vw;
+    text-align: center;
+    padding-top: 0.5%;
+}
+
+.user-btn {
+    color: black;
+    font-weight: bolder;
+    background-color: #DD2A00;
+    padding: 5px;
+    margin: 10px;
+    border: Black solid 1px;
+}
+
+.user-btn:hover {
+    background-color: #A31F00;
+    cursor:pointer;
+}
+
+.btn-parent {
+    display: flex;
+    align-items: center;
+}

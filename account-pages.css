@@ -1,0 +1,96 @@
+* {
+    font-family: "Mukta Helvetica", sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: fixed;
+    background-color: #FFCF00;
+    width: 95%;
+    height: 95%;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+header {
+    background-color: #FF3100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: black 1px solid;
+    width: 100%;
+    margin: auto;
+}
+
+.logo {
+    background-color: #A31F00;
+    border: black 1px solid;
+    margin: 2%;
+    height: 7vh;
+    width: 10vw;
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+header a {
+    color: black;
+    font-weight: bolder;
+    background-color: #DD2A00;
+    border: black 1px solid;
+    margin: 2%;
+    height: 7vh;
+    width: 10vw;
+    text-align: center;
+    padding-top: 1.5%;
+}
+
+header a:hover {
+    background-color: #A31F00;
+    cursor:pointer;
+}
+
+input {
+    background-color: #FF9700;
+    margin-left: 44.5%;
+    margin-top: 20px;
+    margin-right: 45%;
+    width: 10%;
+}
+
+
+main a {
+    position: fixed;
+    color: black;
+    font-weight: bolder;
+    background-color: #DD2A00;
+    border: black 1px solid;
+    height: 7vh;
+    text-align: center;
+    top: 50%;
+    left: 45%;
+    padding-top: 1%;
+    width: 10%;
+}
+
+h1 {
+    margin-left: 46.5%;
+}
+
+main a:hover {
+    background-color: #A31F00;
+    cursor:pointer;
+}
+
+label {
+    margin-left: 47%;
+    margin-top: 2%;
+    width: 10%;
+}
